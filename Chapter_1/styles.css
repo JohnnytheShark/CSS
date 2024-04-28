@@ -49,5 +49,9 @@ header + p::first-letter{
     content:"🇮🇹"
 }
 
+* {
+    font-family: sans-serif;
+}
+
 
 /* article:has(p){color: blue;} */

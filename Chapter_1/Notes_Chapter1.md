@@ -59,4 +59,10 @@ Generally told not to use it as it breaks the flow, but can be used. Anything wi
 4. Combinators: Descendant Combinator (space), child combinator (>), Adjacent Sibling Combinator (+), General Sibling Combinator(~)
 5. Pseudo-Class and Pseduo-element selectors: added to as selector to target a specific state of the element (hovering), also :has() applies when the elment has at least one descendant that meets the selector specified inside the parenthesis. Pseduo-Element use a double colon (::). The purpose of pseudo-elements is to allow us to style a specific part of an element. 
 6. Attribute value selectors: The attribute value selector looks for a specific attribute with the same value. 
-7. 
+7. Universal Selector, * applies to every elements
+
+## Writing CSS
+You can write css with shorthand approach for a few elements such as padding, margin, and animation. The order of the values goes as: top, right, bottom, and left. Right and left can be combined as well. padding: 5px 10px 2px; or 5px 10px 2px 7px;
+
+## Formatting 
+We can write CSS in a few ways, and often when we view other people's code, we see different formats. Multiline, or Single-Line format
