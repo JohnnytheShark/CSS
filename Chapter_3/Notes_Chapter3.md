@@ -38,4 +38,40 @@ animation-name: Name of the keyframes being applied
 animation-play-state - Whether the animation is running or paused
 animation-timing-function - how the animation progresses through the styling over time 
 
-Keyframes are described as @keyframes
+Keyframes are described as @keyframes in this secenerio we create different animation styles based on the keyframe type. Example @keyframes changeColor{
+    0% {background: blue}
+    50% {background: yellow}
+    100%{background: red}
+}
+
+In this scenerio the animation is changing colors from blue to yellow to finally red
+
+### Animation Parts: 
+Duration: The duration property sets how long we want the animation to happen from start to finish. The duration can be set in seconds (s) or milliseconds (ms). The longer the duration, the more slowly the animation completes. With accessibility in mind we want to consider users who are sensitive to motion and choose a duration that is reasonable. 
+
+Remember to not have flashes more than three times in any 1 second period to reduce seizures. 
+
+Iteration Count: Sets how many times the animation should repeat. Default is 1. You can always set it to infinite (but remember this will go on for eternity)
+
+Animation shorthand: 
+animation: animation-name animation-duration animation-iteration-count
+
+You can add animation-delay to elements that are animated to help get new effects.
+
+Transform-Origin:
+Property sets the origin, or the point, for an element's transformations. If we were to rotate tthe object, the transform-origin property would set where the on the element we want to rotate from.
+
+## Accessibility and prefers-reduced-motion media query
+
+To respect users that have sensitivities to motion this query was introduced. You can turn off animation on your site if need be through this.
+
+## Styling HTML Progress Bar
+HTML Progress bar allows us to show our users where in the process our process is at. 
+Progress bars need a vendor prefix to work correctly: 
+-webkit- Chrome, Safari, Opera, Edge
+-moz- Firefox
+
+
+
+
+
